@@ -58,7 +58,7 @@ resetGameButton.addEventListener('click', function(e) {
   userName.value = '';
      username = '';
   game = new RockPaperScissors(username);
-
+  import { RockPaperScissors } from './rock_paper_scissors.js';
   welcomeScreen.classList.remove(`d-none`);
      gameScreen.classList.add(`d-none`);
   resetGameButton.classList.add(`d-none`);
